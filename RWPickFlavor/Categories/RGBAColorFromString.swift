@@ -27,6 +27,8 @@
 /// THE SOFTWARE.
 
 import UIKit
+import Mapbox
+import Alamofire
 
 extension UIColor {
   
