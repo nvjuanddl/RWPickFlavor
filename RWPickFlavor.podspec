@@ -8,7 +8,7 @@ s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.11.0"
+s.version = "0.12.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -25,12 +25,15 @@ s.source = { :git => "https://github.com/nvjuanddl/RWPickFlavor.git", :tag => "#
 # 7
 s.static_framework = true
 
-s.framework = 'Mapbox'
 s.framework = "UIKit"
 s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
+s.dependency 'MapLibre', '5.12.2'
 
-# 10
 s.swift_version = "5"
+
+s.source_files = "RWPickFlavor/**/*.{swift}"
+
+s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 end
