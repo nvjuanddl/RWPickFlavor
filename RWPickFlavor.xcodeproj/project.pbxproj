@@ -17,6 +17,7 @@
 		95663A2A20DB7EB800BD8617 /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95663A2020DB7EB800BD8617 /* RGBAColorFromString.swift */; };
 		95663A2B20DB7EB800BD8617 /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95663A2220DB7EB800BD8617 /* PickFlavorViewController.swift */; };
 		95663A2C20DB7EB800BD8617 /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95663A2320DB7EB800BD8617 /* PickFlavorDataSource.swift */; };
+		E051A71428B3CF39002B7F86 /* RWPickFlavor.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E051A71328B3CF39002B7F86 /* RWPickFlavor.podspec */; };
 		E0BD37BF28AF297300C446E5 /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = E0BD37BE28AF297300C446E5 /* Mapbox */; };
 		E2239186498EF1DD67A1E8BD /* libPods-RWPickFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2784BD81AA348B6F9D9F5724 /* libPods-RWPickFlavor.a */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		95663A2020DB7EB800BD8617 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
 		95663A2220DB7EB800BD8617 /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
 		95663A2320DB7EB800BD8617 /* PickFlavorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorDataSource.swift; sourceTree = "<group>"; };
+		E051A71328B3CF39002B7F86 /* RWPickFlavor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = RWPickFlavor.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		95663A0020DB7E4D00BD8617 = {
 			isa = PBXGroup;
 			children = (
+				E051A71328B3CF39002B7F86 /* RWPickFlavor.podspec */,
 				95663A0C20DB7E4D00BD8617 /* RWPickFlavor */,
 				95663A0B20DB7E4D00BD8617 /* Products */,
 				9FF54199CF5C132FDAE06268 /* Pods */,
@@ -225,6 +228,7 @@
 			files = (
 				95663A2620DB7EB800BD8617 /* Main.storyboard in Resources */,
 				95663A2920DB7EB800BD8617 /* Images.xcassets in Resources */,
+				E051A71428B3CF39002B7F86 /* RWPickFlavor.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

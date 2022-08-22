@@ -8,7 +8,7 @@ s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.2.0"
+s.version = "0.4.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -20,6 +20,7 @@ s.author = { "Juan Delgado L" => "nvjuanddl@gmail.com" }
 s.homepage = "https://github.com/nvjuanddl/RWPickFlavor"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
+s.source = { :git => "https://github.com/maplibre/maplibre-gl-native-distribution.git", :branch => "main"}
 s.source = { :git => "https://github.com/nvjuanddl/RWPickFlavor.git", :tag => "#{s.version}"}
 
 # 7
@@ -34,6 +35,6 @@ s.source_files = "RWPickFlavor/**/*.{swift}"
 s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
-s.swift_version = "4.2"
+s.swift_version = "5"
 
 end
