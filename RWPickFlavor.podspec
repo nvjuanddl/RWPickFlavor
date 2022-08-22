@@ -26,6 +26,10 @@ s.source = { :git => "https://github.com/nvjuanddl/RWPickFlavor.git", :tag => "#
 # 7
 s.static_framework = true
 
+s.subspec 'Mapbox' do |ms|
+  ms.source = { :http => 'https://github.com/maplibre/maplibre-gl-native/releases/download/ios-v5.12.2/Mapbox-5.12.2.zip' }
+end
+
 s.framework = "UIKit"
 s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'

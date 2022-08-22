@@ -28,6 +28,7 @@
 
 import UIKit
 import Alamofire
+import Mapbox 
 
 extension UIColor {
   

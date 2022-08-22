@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		95663A2B20DB7EB800BD8617 /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95663A2220DB7EB800BD8617 /* PickFlavorViewController.swift */; };
 		95663A2C20DB7EB800BD8617 /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95663A2320DB7EB800BD8617 /* PickFlavorDataSource.swift */; };
 		E051A71428B3CF39002B7F86 /* RWPickFlavor.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E051A71328B3CF39002B7F86 /* RWPickFlavor.podspec */; };
+		E0A5C2FA28B3F8BF00A255E4 /* Mapbox in Frameworks */ = {isa = PBXBuildFile; productRef = E0A5C2F928B3F8BF00A255E4 /* Mapbox */; };
 		E2239186498EF1DD67A1E8BD /* libPods-RWPickFlavor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2784BD81AA348B6F9D9F5724 /* libPods-RWPickFlavor.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2239186498EF1DD67A1E8BD /* libPods-RWPickFlavor.a in Frameworks */,
+				E0A5C2FA28B3F8BF00A255E4 /* Mapbox in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +180,7 @@
 			);
 			name = RWPickFlavor;
 			packageProductDependencies = (
+				E0A5C2F928B3F8BF00A255E4 /* Mapbox */,
 			);
 			productName = RWPickFlavor;
 			productReference = 95663A0A20DB7E4D00BD8617 /* RWPickFlavor.framework */;
@@ -207,6 +210,7 @@
 			);
 			mainGroup = 95663A0020DB7E4D00BD8617;
 			packageReferences = (
+				E0A5C2F828B3F8BF00A255E4 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */,
 			);
 			productRefGroup = 95663A0B20DB7E4D00BD8617 /* Products */;
 			projectDirPath = "";
@@ -478,6 +482,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E0A5C2F828B3F8BF00A255E4 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maplibre/maplibre-gl-native-distribution";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E0A5C2F928B3F8BF00A255E4 /* Mapbox */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E0A5C2F828B3F8BF00A255E4 /* XCRemoteSwiftPackageReference "maplibre-gl-native-distribution" */;
+			productName = Mapbox;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 95663A0120DB7E4D00BD8617 /* Project object */;
 }
