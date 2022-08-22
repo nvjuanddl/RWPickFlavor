@@ -8,7 +8,7 @@ s.summary = "RWPickFlavor lets a user select an ice cream flavor."
 s.requires_arc = true
 
 # 2
-s.version = "0.6.0"
+s.version = "0.7.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -29,12 +29,6 @@ s.static_framework = true
 s.framework = "UIKit"
 s.dependency 'Alamofire', '~> 4.7'
 s.dependency 'MBProgressHUD', '~> 1.1.0'
-
-# 8
-s.source_files = "RWPickFlavor/**/*.{swift}"
-
-# 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5"
